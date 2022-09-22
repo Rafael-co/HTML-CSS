@@ -1,0 +1,91 @@
+*{
+    font-family: 'montserrat', sans-serif;
+    
+}
+header{
+    background-color: #0f637a;
+  
+}
+body{
+    margin:0;
+    background-color:#107590;
+}
+
+form{
+    margin:30px;
+}
+
+input{
+    border: transparent;
+    border-radius: 10px;
+}
+.loginContainer{
+    
+    width: 300px;
+    border-radius: 10px;
+    background-color: #13809f;
+}
+.cursoAMP{
+   width: 500px;
+   height: 400px;
+    background: url(./src/engenharia-de-dados.png) no-repeat  center top;
+   
+  
+
+}
+table{
+    margin: auto auto auto 30px;
+    color: white;
+}
+
+   
+
+.nomeCurso{
+    
+    padding-top:50px;
+    padding-left:40px;
+    padding-right: 50px;
+    color: yellow;
+
+}
+.saibaMais{
+    width: 400px;
+    height: 50px;
+    margin: 75px 50px ;
+    border-radius: 6px;
+    background-color: yellow;
+    border-color: transparent;
+
+    font-size: 15px;
+    font-weight:900;
+
+}
+.img{
+    width:14px;
+    margin-right: 10px;
+
+}
+.cursoDS{
+    margin-top: 10px;
+    width: 500px;
+   height: 400px;
+    background: url(https://soulcodeacademy.org/assets/images/courses/servicenow.png) no-repeat  center top;
+}
+.cursoSF{
+    margin-top: 10px;
+    width: 500px;
+   height: 400px;
+    background: url(https://soulcodeacademy.org/assets/images/courses/salesforce.png) no-repeat  center top; 
+}
+.cursoJV{
+    margin-top: 10px;
+    width: 500px;
+   height: 400px;
+    background: url(https://soulcodeacademy.org/assets/images/courses/java-full-stack.png) no-repeat  center top;  
+}
+.cursoED{
+    margin-top: 10px;
+    width: 500px;
+   height: 400px;
+    background: url(./src/engenharia-de-dados.png) no-repeat  center top;
+}
