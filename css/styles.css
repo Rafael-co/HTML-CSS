@@ -1,0 +1,41 @@
+p{
+    color:red;
+    font-size: 20px;
+    text-decoration: underline;
+}
+body{
+    background-color: black;
+    font-family: 'Montserrat' , sans-serif;
+
+}
+/*
+tipos de seletor basicos
+1) por elemento
+2) por id (#) => estilizaçao unica
+3)por classe ==> estilização para vários.
+
+colocando varios elementos juntos */
+
+h1, h2, h3{
+    color: white;
+}
+/*uso o id quando quero esstilizar um elemento especifico*/
+#meu-h1{
+    font-weight: 100;
+}
+/*posso aplicar a class em diversos elementos diferentes*/
+.cabecalho{
+    color: crimson;
+    text-decoration: underline;
+    font-weight: 900;
+}
+.quadrado{
+    width: 240px;
+    height: 240px;
+    background-color: blue;
+    border-radius: 16px;
+}
+.banner{
+    width: 100%;
+    border-radius: 50px;
+}

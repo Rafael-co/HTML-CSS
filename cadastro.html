@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form> <!-- container de inputs -->
+        <div>
+            <label for="campoNome">Nome Completo</label><br>
+
+            <input id="campoNome" name ="campoNome" type=" text"  placeholder = "seu nome" required>
+        </div>
+        <div>
+            <label for="camEmail">E-mail</label><br>
+            <input id="camEmail" name="campoEmail" type="email" placeholder="usario@exemplo.com" required>
+        </div>
+        <div>
+            <label for="campoSenha" >senha</label><br>
+
+            <input name="campoSenha" type="password" placeholder="sua senha" required>
+        </div>
+        <div>
+            <label for ='campoProfissao'>profissao</label><br>
+            <select name="campoProfissao" id=" campoProfissao">
+                <option valeu=""professor> professor</option>
+                <option value="técnico">tecnico</option>
+                <option value="especialista">especialista</option>
+            </select>
+,        </div>
+        <div>
+            <label>idioma nativo</label><br>
+            <input id ="checkIngles" name="campoIdioma" type="radio"value="ingles">
+            <label for="checkIngles">ingles</label>
+
+            <input id ="checkPortugues" name="campoIdioma" type="radio"value="portugues">
+            <label for="checkPortugues">protugues</label>
+
+            <input id ="checkEspanhol" name="campoIdioma" type="radio"value="espanhol">
+            <label for="checkEspanhol">Espanhol</label>
+        </div>
+        <div>
+            <label>fescreva sua vida profisional</label><br>
+            <textarea name="sobreVoce" id="sobreVoce" cols="30" rows="10" placeholder="descreva sua viada profisional" minlength="20" required></textarea><br>
+            <input type="checkbox" name="checkbox"> <label>concorda com os termos</label>
+        </div>
+        <button>enviar</button>
+    </form>
+</body>
+</html>
