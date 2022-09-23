@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'arial', sans-serif;
+}
+.my-button{
+    background-color: rgb(234, 93, 37);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 6px 4px ;
+    cursor:pointer;
+    border-radius: 6px;
+}
+.my-button:hover{
+    background-color: black;
+}
+.com-azul{
+    background-color: blue;
+}
+.my-table{
+    width:400px;
+    border-collapse: collapse;
+    margin: auto;
+}
+.my-table td, th{
+border: 1px solid #ddd;
+padding: 8px;
+}
+.my-table th{
+background-color: cornflowerblue;
+padding: 12px 0;
+color:white
+
+}
+.my-table tr:hover{
+    background-color: #ddd;
+}
+.my-table tr:nth-child(even) {
+    background-color: gray;
+}
+.my-table td{
+    text-align: center;
+    height: 50px;
+}
+
+.my-form{
+    border-radius: 6px;
+    background-color: aqua;
+    padding: 20px 16px;  
+    width: 300px;
+    margin: auto;
+}
+.my-form input{
+    width:100% ;
+    padding: 12px 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+.toda-largura{
+   
+    width: 100%;
+    margin:6px 0;
+}
+.my-form-group{
+    margin-bottom:6px;
+}

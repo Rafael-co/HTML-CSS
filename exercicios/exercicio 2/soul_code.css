@@ -1,6 +1,6 @@
 *{
     font-family: 'montserrat', sans-serif;
-    
+    box-sizing: border-box;
 }
 header{
     background-color: #0f637a;
@@ -11,19 +11,31 @@ body{
     background-color:#107590;
 }
 
+
 form{
     margin:30px;
+    padding: 10px;
 }
 
 input{
     border: transparent;
     border-radius: 10px;
 }
-.loginContainer{
+main{
     
+    margin: 0;
+    
+}
+h1{
+    text-align: center;
+}
+
+.loginContainer{
+    margin:auto;
     width: 300px;
     border-radius: 10px;
     background-color: #13809f;
+   
 }
 .cursoAMP{
    width: 500px;
