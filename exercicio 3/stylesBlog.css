@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    font-family: 'montserrat',sans-serif;
+}
+header{
+    margin:0;
+    text-align: center;
+}
+h1{
+    font-family: 'Bungee Spice', cursive;
+   
+}
+.card {
+    width: 400px;
+    height: 110px;
+    background-color: blue;
+
+}
+.objetivo{
+    align-items: center;
+    margin-right: 0px;
+    margin-left: 300px;
+    
+}

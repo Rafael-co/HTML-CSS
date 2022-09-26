@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   
+    background-color:#AF7595;
+    margin:0px;
+}
+.cabecalho P{
+   font-size: 32px;
+   color:gray;
+    text-shadow: 2px 0px black;
+}
+.cabecalho{
+    background-color:#1AC8ED;
+    margin: 0px;
+}
+.cabecalho h2{
+    margin: 0px;
+    padding: 25px;
+    font-size: 42px;
+}
+.tabela{
+    margin-bottom: 30px;
+    width: 400px;
+    height: 300px;
+    margin:auto
+
+}
+.tabela table {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #5C1A1B;
+    color: aqua;
+}
+table td{
+    width: 100px;
+    padding: 5px;
+}
+.pe{
+    font-size: 25px;
+
+    color: aquamarine;
+    height: 250px;
+    background-color:#5C1A1B ;
+    margin-top: 50px;
+    
+}

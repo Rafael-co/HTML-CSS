@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+   
+    
+}
+body{
+    background-image: url(/scr/campo.jpeg);
+}
+h1{
+    text-align: center;
+    color: brown;
+    text-shadow: 1px 1px black;
+}
+.table{
+    width: 1200px;
+    margin:auto;
+}
+.tabela {
+    background-color: white;
+    margin-top: 100px;
+    width: 1000px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    color: #4caf50;
+   
+    
+}
+ tbody td {
+    text-transform: uppercase;
+    border-bottom: 1px solid #ddd;
+    font-size:16px ;
+    font-family: 'Oswald', sans-serif;
+    
+    font-weight:400;
+    width: 65px;
+    height: 50px;
+    
+    
+   
+}
+
+
+.nomeDoTime{
+width: 250px;
+height: 50px;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+ thead td{
+    height: 50px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ddd;
+    color:#666;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    
+    
+}
+.shield{
+width: 50px;
+
+}
+
+
+
+img{
+    align-items: center;
+    width: 25px;
+   margin: 5px; 
+}
+.libertadores tr:hover{
+    background-color: black;
+}
