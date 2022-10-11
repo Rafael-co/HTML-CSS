@@ -37,6 +37,19 @@ h1{
     background-color: #13809f;
    
 }
+
+.container-flex{
+    margin: 0 auto;
+    display: flex;
+    width: 100vh;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+
+
+
+}
 .cursoAMP{
    width: 500px;
    height: 400px;

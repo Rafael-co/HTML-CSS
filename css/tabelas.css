@@ -67,6 +67,16 @@ img{
     width: 25px;
    margin: 5px; 
 }
-.libertadores tr:hover{
-    background-color: black;
+.Libertadores:hover{
+    background-color: #AFC1D6;
+}
+.sulAmericana:hover{
+    background-color:#CEF9F2;
+
+}
+.preRebaixamento:hover{
+    background-color: rgba(255, 0, 0, 0.644);
+}
+.rebaixamento:hover{
+    background-color:red ;
 }
